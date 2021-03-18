@@ -71,3 +71,9 @@ button:hover {
 	display: inline-block;
 	width: 20%;
 }
+
+.play{
+	color: white;
+	font-weight: normal;
+	font-size: 22px;
+}
