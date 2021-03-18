@@ -74,6 +74,12 @@ button:hover {
 
 .play{
 	color: white;
+	line-height: 1.1;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
 	font-weight: normal;
-	font-size: 22px;
+	font-size: 150%;
+	position: fixed;
+    bottom: 0;
 }

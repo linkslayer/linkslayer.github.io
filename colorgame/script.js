@@ -5,6 +5,7 @@ var squares = document.querySelectorAll(".square");
 var messageDisplay = document.querySelector("#message"); 
 var colorDisplay = document.getElementById("colorDisplay");
 var h1 = document.querySelector("h1");
+var h2 = document.querySelector("h2");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
 
@@ -39,6 +40,7 @@ function setUpSquares() {
 				messageDisplay.textContent = "Correct!";
 				changeColor(clickedColor);
 				h1.style.backgroundColor = clickedColor;
+				h2.style.backgroundColor = clickedColor;
 				resetButton.textContent = "Play Again?"
 			}
 			else {
@@ -66,6 +68,7 @@ function reset(){
 		}
 	}
 	h1.style.backgroundColor = "steelblue";
+	h2.style.backgroundColor = "steelblue";
 	resetButton.textContent="New Colors";
 	messageDisplay.textContent = "";
 }
